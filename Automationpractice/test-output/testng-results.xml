@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28412" started-at="2018-08-20T21:35:20Z" finished-at="2018-08-20T21:35:49Z">
+    <groups>
+      <group name="ALL">
+        <method signature="WishlistTests.AddShoppingCartTest(java.lang.String)[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+      </group> <!-- ALL -->
+      <group name="CHECKOUT">
+        <method signature="WishlistTests.AddShoppingCartTest(java.lang.String)[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+      </group> <!-- CHECKOUT -->
+      <group name="WISHLIST">
+        <method signature="WishlistTests.AddShoppingCartTest(java.lang.String)[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+      </group> <!-- WISHLIST -->
+    </groups>
+    <test name="Default test" duration-ms="28412" started-at="2018-08-20T21:35:20Z" finished-at="2018-08-20T21:35:49Z">
+      <class name="tests.WishlistTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="setUp" is-config="true" duration-ms="9311" started-at="2018-08-20T21:35:20Z" finished-at="2018-08-20T21:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initPages()[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="initPages" is-config="true" duration-ms="135" started-at="2018-08-20T21:35:30Z" finished-at="2018-08-20T21:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="init" is-config="true" duration-ms="7960" started-at="2018-08-20T21:35:30Z" finished-at="2018-08-20T21:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="AddShoppingCartTest(java.lang.String)[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="AddShoppingCartTest" duration-ms="9186" started-at="2018-08-20T21:35:38Z" data-provider="searchProvider" finished-at="2018-08-20T21:35:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at tests.WishlistTests.AddShoppingCartTest(WishlistTests.java:143)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddShoppingCartTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="cleanUp" is-config="true" duration-ms="1173" started-at="2018-08-20T21:35:47Z" finished-at="2018-08-20T21:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.WishlistTests@55f3ddb1]" name="tearDown" is-config="true" duration-ms="564" started-at="2018-08-20T21:35:48Z" finished-at="2018-08-20T21:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.WishlistTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
